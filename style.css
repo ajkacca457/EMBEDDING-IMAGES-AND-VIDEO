@@ -51,6 +51,72 @@ i { margin-right: 5%;
 .container {
   width: 98%;
   background-color:rgba(221, 221, 221, 0.315);
-  height: 50vh;
+  padding: 1%;
   margin: 0 auto;
+}
+
+.main { 
+  width: 60%;
+  height: auto;
+}
+
+#main-video {
+  width: 100%;
+  height: 50vh;
+}
+
+.rightinfo{
+  display: flex;
+  align-items: center;
+  
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  width:95%;  
+}
+
+.underline{
+  width:100%;
+  height:2px;
+  opacity: 0.2;
+  margin-bottom: 5%;
+  background-color:black;
+}
+
+#join{
+  height:2em;
+  width:5em;
+  border:1px solid blue;
+  color:blue;
+}
+
+#subs{
+  height:2em;
+  width:9em;
+  border:1px solid red;
+  color: white;
+  background-color:red;
+}
+
+.profileinfo{
+  display:flex;
+  justify-content: space-between;
+}
+
+.leftprofile{
+  display:flex;
+  width: 50%;
+}
+
+.netninjainfo{
+  margin-bottom: 20px;
+  padding-left: 5%;
+}
+
+.showmore{
+  color: grey;
+  padding-left: 5%;
+  margin-top: 20px;
 }
