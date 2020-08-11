@@ -28,11 +28,14 @@ nav {
 }
 i { margin-right: 5%;
 }
+.icon { transform: scale(1.3); }
 
 .iconu {
   color:red;
+  margin-right: 3%;
+  transform: scale(2);
 }
-.icon { transform: scale(1.3); }
+
 
 .notification {
   display: flex;
@@ -44,11 +47,16 @@ i { margin-right: 5%;
   width: 85%;
   height: 25px;
   padding-left: 10px;
+  border: 1px gray solid;
+  border-right: none;
+
 }
 #btn {
-  height:30px;
+  height:29px;
   width:35px;
   margin-left: -4px;
+  border: 1px gray solid;
+    border-left: none;
 }
 
 .container {
@@ -120,6 +128,15 @@ i { margin-right: 5%;
   padding: 1% 0;
 }
 
+#share {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 105%;
+}
+#share:hover {
+  color:red;
+}
 .profileinfo{
   display:flex;
   justify-content: space-between;
@@ -259,7 +276,7 @@ i { margin-right: 5%;
 }
 
 @media screen and (max-width: 600px) {
-  .container { 
+  .container {
     display: block;
   }
 
@@ -270,11 +287,11 @@ i { margin-right: 5%;
   .main-video {
     width:100%;
     height: 70vh;
-  }  
+  }
 
   #searchvid {
     width:60%;
   }
-  
+
   .icon { transform: scale(1); }
 }
