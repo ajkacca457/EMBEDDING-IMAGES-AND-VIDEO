@@ -17,14 +17,14 @@ nav {
   background-color: white;
 }
 
-
 .notification {
   flex:1;
 }
 
 .logo {
   display: flex;
-  align-items: center;  
+  flex:1;
+  align-items: center;
 }
 
 i { margin-right: 5%;
@@ -43,6 +43,10 @@ i { margin-right: 5%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.inputs {
+  flex: 1;
 }
 
 .inputs input {
