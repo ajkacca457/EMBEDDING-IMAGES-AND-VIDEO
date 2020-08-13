@@ -8,10 +8,13 @@ body {
   background-color:rgba(221, 221, 221, 0.315);
 }
 
+.flex {
+  display: flex;
+}
+
 
 nav {
-  display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
   align-items: center;
   padding:5px 15px;
   background-color: white;
@@ -22,7 +25,6 @@ nav {
 }
 
 .logo {
-  display: flex;
   flex:1;
   align-items: center;
 }
@@ -40,7 +42,6 @@ i { margin-right: 5%;
 
 
 .notification {
-  display: flex;
   justify-content: flex-end;
   align-items: center;
 }
@@ -62,14 +63,13 @@ i { margin-right: 5%;
   width:35px;
   margin-left: -4px;
   border: 1px gray solid;
-    border-left: none;
+  border-left: none;
 }
 
 .container {
   width: 95%;
   padding: 1%;
-  margin: 0 auto;
-  display: flex;
+  margin: 0 auto;  
 }
 
 .main {
@@ -83,7 +83,6 @@ i { margin-right: 5%;
 }
 
 .rightinfo{
-  display: flex;
   align-items: center;
   opacity: .5;
 
@@ -101,7 +100,6 @@ i { margin-right: 5%;
 }
 
 .info{
-  display: flex;
   justify-content: space-between;
   align-items: center;
   width:95%;
@@ -144,12 +142,10 @@ i { margin-right: 5%;
   color:red;
 }
 .profileinfo{
-  display:flex;
   justify-content: space-between;
 }
 
 .leftprofile{
-  display:flex;
   width: 50%;
 }
 
@@ -166,9 +162,7 @@ i { margin-right: 5%;
   font-size: 12px;
 }
 
-.comment {
-  display: flex;
-}
+
 
 #user, #user1, #user2, #netninja {
   width: 60px;
@@ -177,7 +171,7 @@ i { margin-right: 5%;
 }
 
 .title {
-  display: flex;
+  
   justify-content: flex-start;
   align-items: center;
 }
@@ -195,7 +189,7 @@ i { margin-right: 5%;
 }
 
 .like,.dislike,.landd {
-  display: flex;
+  
   justify-content: flex-start;
   align-items: center;
   opacity: .8;
@@ -206,14 +200,13 @@ i { margin-right: 5%;
 }
 
 .more {
-  display: flex;
+  
   align-items: center;
   font-size: 80%;
   color:rgba(0, 123, 194, 1);
 }
 
 .publiccom {
-  display:flex;
   align-items: center;
   margin:5% 0;
 }
@@ -252,13 +245,13 @@ i { margin-right: 5%;
 }
 
 .titleaside {
-  display: flex;
+  
   justify-content: space-between;
   align-items: center;
 }
 
 .autoplay {
-  display: flex;
+  
   justify-content: space-between;
   align-items: center;
 }
