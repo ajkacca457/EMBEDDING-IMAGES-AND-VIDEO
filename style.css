@@ -12,10 +12,12 @@ body {
   display: flex;
 }
 
+.aligncenter{
+  align-items: center;
+}
 
 nav {
     justify-content: space-between;
-  align-items: center;
   padding:5px 15px;
   background-color: white;
 }
@@ -26,7 +28,6 @@ nav {
 
 .logo {
   flex:1;
-  align-items: center;
 }
 
 i { margin-right: 5%;
@@ -43,7 +44,6 @@ i { margin-right: 5%;
 
 .notification {
   justify-content: flex-end;
-  align-items: center;
 }
 
 .inputs {
@@ -83,7 +83,6 @@ i { margin-right: 5%;
 }
 
 .rightinfo{
-  align-items: center;
   opacity: .5;
 
 }
@@ -95,13 +94,11 @@ i { margin-right: 5%;
 .sharecont {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-right: 15px;
 }
 
 .info{
   justify-content: space-between;
-  align-items: center;
   width:95%;
 }
 
@@ -173,10 +170,10 @@ i { margin-right: 5%;
 .title {
 
   justify-content: flex-start;
-  align-items: center;
+
 }
 
-.title h4 {
+.mr {
   margin-right:10px;
 }
 
@@ -189,9 +186,7 @@ i { margin-right: 5%;
 }
 
 .like,.dislike,.landd {
-
   justify-content: flex-start;
-  align-items: center;
   opacity: .8;
 }
 
@@ -200,14 +195,11 @@ i { margin-right: 5%;
 }
 
 .more {
-
-  align-items: center;
   font-size: 80%;
   color:rgba(0, 123, 194, 1);
 }
 
 .publiccom {
-  align-items: center;
   margin:5% 0;
 }
 
@@ -241,24 +233,16 @@ i { margin-right: 5%;
 
 .thumb {
   height: 120px;
-  margin-right: 10px;
 }
 
 .titleaside {
-
   justify-content: space-between;
-  align-items: center;
 }
 
 .autoplay {
-
   justify-content: space-between;
-  align-items: center;
 }
 
-.autoplay p {
-  margin-right: 10px;
-}
 
 #showmore {
   width: 100%;
