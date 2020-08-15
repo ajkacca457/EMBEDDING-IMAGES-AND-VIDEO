@@ -6,9 +6,12 @@ This project is a clone of youtube interface. The aim of this project was to rec
 
 </h1>Additional description about the project and its features.</h1>
 
-Built With
+<h2>Built With</h2>
+
 Html
+
 CSS
+
 Atom editor
 
 <h2>Live Demo</h2>
