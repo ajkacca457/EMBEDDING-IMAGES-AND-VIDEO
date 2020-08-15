@@ -1,7 +1,7 @@
 </h1># EMBEDDING-IMAGES-AND-VIDEO</h1>
 This project is a clone of youtube interface. The aim of this project was to recreate youtube desing using html and css technologies.
 
-<img src="https://drive.google.com/file/d/1Ti-ebteJP-HO2u2HO5xgy06B32mP9-f4/view?usp=sharing" alt="projectimg"
+<img src="icons/project1.png" alt="projectimg"
 
 </h1>Additional description about the project and its features.</h1>
 
