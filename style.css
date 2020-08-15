@@ -8,54 +8,68 @@ body {
   background-color:rgba(221, 221, 221, 0.315);
 }
 
+.flex {
+  display: flex;
+}
+
+.aligncenter{
+  align-items: center;
+}
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    justify-content: space-between;
   padding:5px 15px;
   background-color: white;
 }
 
-
-.logo,.inputs,.notification {
+.notification {
   flex:1;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+  flex:1;
 }
+
 i { margin-right: 5%;
 }
 
-.iconu {
-  color:red;
-}
 .icon { transform: scale(1.3); }
 
+.iconu {
+  color:red;
+  margin-right: 3%;
+  transform: scale(2);
+}
+
+
 .notification {
-  display: flex;
   justify-content: flex-end;
-  align-items: center;
+}
+
+.inputs {
+  flex: 1;
 }
 
 .inputs input {
   width: 85%;
   height: 25px;
   padding-left: 10px;
+  border: 1px gray solid;
+  border-right: none;
+
 }
 #btn {
-  height:30px;
+  height:29px;
   width:35px;
   margin-left: -4px;
+  border: 1px gray solid;
+  border-left: none;
 }
 
 .container {
   width: 95%;
   padding: 1%;
   margin: 0 auto;
-  display: flex;
 }
 
 .main {
@@ -69,8 +83,6 @@ i { margin-right: 5%;
 }
 
 .rightinfo{
-  display: flex;
-  align-items: center;
   opacity: .5;
 
 }
@@ -82,14 +94,11 @@ i { margin-right: 5%;
 .sharecont {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-right: 15px;
 }
 
 .info{
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   width:95%;
 }
 
@@ -120,13 +129,20 @@ i { margin-right: 5%;
   padding: 1% 0;
 }
 
+#share {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 105%;
+}
+#share:hover {
+  color:red;
+}
 .profileinfo{
-  display:flex;
   justify-content: space-between;
 }
 
 .leftprofile{
-  display:flex;
   width: 50%;
 }
 
@@ -143,9 +159,7 @@ i { margin-right: 5%;
   font-size: 12px;
 }
 
-.comment {
-  display: flex;
-}
+
 
 #user, #user1, #user2, #netninja {
   width: 60px;
@@ -154,12 +168,12 @@ i { margin-right: 5%;
 }
 
 .title {
-  display: flex;
+
   justify-content: flex-start;
-  align-items: center;
+
 }
 
-.title h4 {
+.mr {
   margin-right:10px;
 }
 
@@ -172,9 +186,7 @@ i { margin-right: 5%;
 }
 
 .like,.dislike,.landd {
-  display: flex;
   justify-content: flex-start;
-  align-items: center;
   opacity: .8;
 }
 
@@ -183,15 +195,11 @@ i { margin-right: 5%;
 }
 
 .more {
-  display: flex;
-  align-items: center;
   font-size: 80%;
   color:rgba(0, 123, 194, 1);
 }
 
 .publiccom {
-  display:flex;
-  align-items: center;
   margin:5% 0;
 }
 
@@ -225,24 +233,16 @@ i { margin-right: 5%;
 
 .thumb {
   height: 120px;
-  margin-right: 10px;
 }
 
 .titleaside {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .autoplay {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
-.autoplay p {
-  margin-right: 10px;
-}
 
 #showmore {
   width: 100%;
@@ -258,8 +258,8 @@ i { margin-right: 5%;
   margin-top: 0;
 }
 
-@media screen and (max-width: 600px) {
-  .container { 
+@media screen and (max-width: 800px) {
+  .container {
     display: block;
   }
 
@@ -270,11 +270,11 @@ i { margin-right: 5%;
   .main-video {
     width:100%;
     height: 70vh;
-  }  
+  }
 
   #searchvid {
     width:60%;
   }
-  
+
   .icon { transform: scale(1); }
 }
