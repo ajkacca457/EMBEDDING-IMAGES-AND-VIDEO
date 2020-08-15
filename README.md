@@ -1,34 +1,32 @@
-# EMBEDDING-IMAGES-AND-VIDEO
-First project of Avijit Karmaker and Abhigyan Mahanta 
+</h1># EMBEDDING-IMAGES-AND-VIDEO</h1>
+This project is a clone of youtube interface. The aim of this project was to recreate youtube desing using html and css technologies. 
 
-Additional description about the project and its features.
+<img src="https://drive.google.com/file/d/1Ti-ebteJP-HO2u2HO5xgy06B32mP9-f4/view?usp=sharing" alt="projectimg"
 
-This is a project to demonstrate the exisiting knowledge of HTML and CSS. It is a collaborative project which recreates the basic Youtube interface. 
+</h1>Additional description about the project and its features.</h1>
 
 Built With
-HTML, CSS, GIT, ATOM and VSCODE
+Html 
+CSS
+Atom editor
 
-
-Live Demo
+<h2>Live Demo</h2>
 https://atube.netlify.app/
 
-Getting Started
 
-
+<h2>Getting Started</h2>
 To get a local copy up and running follow these simple example steps.
 
 Prerequisites
 Text editor,Github profile and Git. 
 
-
-Authors
+<h2>Authors</h2>
 
 👤 Author1
 
 Github: @ajkacca457
 Twitter: @ajkacca
 Linkedin: https://www.linkedin.com/in/avijit-karmaker-8738a54a/
-
 
 👤 Author2
 
@@ -44,10 +42,7 @@ Feel free to check the issues page.
 Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
-
-📝 License
+📝 <h2>License</h2>
 This project is a collaboration project of microverse students. All rights are reserved for Avijit and Abhigyan.
+
+
