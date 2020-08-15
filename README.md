@@ -1,12 +1,13 @@
-</h1># EMBEDDING-IMAGES-AND-VIDEO</h1>
-This project is a clone of youtube interface. The aim of this project was to recreate youtube desing using html and css technologies. 
+<h1># EMBEDDING-IMAGES-AND-VIDEO</h1>
 
-<img src="https://drive.google.com/file/d/1Ti-ebteJP-HO2u2HO5xgy06B32mP9-f4/view?usp=sharing" alt="projectimg"
+This project is a clone of youtube interface. The aim of this project was to recreate youtube desing using html and css technologies.
+
+<img src="icons/project1.PNG" alt="projectimg">
 
 </h1>Additional description about the project and its features.</h1>
 
 Built With
-Html 
+Html
 CSS
 Atom editor
 
@@ -18,7 +19,7 @@ https://atube.netlify.app/
 To get a local copy up and running follow these simple example steps.
 
 Prerequisites
-Text editor,Github profile and Git. 
+Text editor,Github profile and Git.
 
 <h2>Authors</h2>
 
@@ -44,5 +45,3 @@ Give a ⭐️ if you like this project!
 
 📝 <h2>License</h2>
 This project is a collaboration project of microverse students. All rights are reserved for Avijit and Abhigyan.
-
-
