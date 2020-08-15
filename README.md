@@ -25,13 +25,16 @@ Text editor,Github profile and Git.
 
 👤 Author1
 
-Github: @ajkacca457
+Github: @ajkacca457 
+
 Twitter: @ajkacca
+
 Linkedin: https://www.linkedin.com/in/avijit-karmaker-8738a54a/
 
 👤 Author2
 
 Github: @Abhigyan001
+
 Linkedin: https://www.linkedin.com/in/abhigyan-mahanta-b49799145/
 
 
