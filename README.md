@@ -1,4 +1,4 @@
-</h1># EMBEDDING-IMAGES-AND-VIDEO</h1>
+<h1># EMBEDDING-IMAGES-AND-VIDEO</h1>
 
 This project is a clone of youtube interface. The aim of this project was to recreate youtube desing using html and css technologies.
 
