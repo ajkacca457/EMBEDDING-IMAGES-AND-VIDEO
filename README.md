@@ -2,7 +2,7 @@
 
 This project is a clone of youtube interface. The aim of this project was to recreate youtube desing using html and css technologies.
 
-<img src="icons/project1.PNG" alt="projectimg">
+<img src="icons/Capture5.PNG" alt="projectimg">
 
 </h1>Additional description about the project and its features.</h1>
 
