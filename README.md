@@ -38,7 +38,7 @@ Linkedin: https://www.linkedin.com/in/avijit-karmaker-8738a54a/
 
 Github: @Abhigyan001
 
-Linkedin: https://www.linkedin.com/in/abhigyan-mahanta-b49799145/
+Linkedin: https://www.linkedin.com/in/abhigyan001/
 
 
 🤝 Contributing
